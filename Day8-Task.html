@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Style House</title>
+    <style>
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaBHxtz163qM2uKmugYdNzKqJzj_VVZp73A&s");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav{
+            left: 0;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            background-color: palevioletred;
+        }
+        #tagline{
+            font-family: 'Times New Roman', Times, serif;
+            opacity: 0.6;
+            font-size: 20px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        #container{
+        height: 430px;
+        width: 400px;
+        border: 2px solid rgb(179, 44, 82);
+        box-shadow: 10px 10px 10px ;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10PX;
+        /* margin-left: 120px; space bw boxes*/
+        }
+        img{
+            margin-top: 20px;
+            margin-left:50px;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 10px grey;
+            border-radius: 20px;
+        }
+        #text{
+            margin-left: 45px;
+            margin-right: 45px;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 1.5;
+            color: rgb(38, 0, 110);
+            font-size: 20px;
+        }
+        #maindiv{
+            margin-top: 100px;
+            display: flex;
+            flex-direction:row;
+            justify-content:space-evenly; /*space bw boxes*/
+        }
+        #box{
+            width: 400px;
+            height:40px;
+            background-color: rgb(207, 139, 50);
+            text-align: center;
+            padding-top: 15px;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        Sharon Style House
+        <p id="tagline">Style is a way to say who you are without having to speak.</p>
+    </nav>
+
+    <div id="maindiv">
+        <div id="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1k_HdNXLM05_TqzkzkqORKbUvoakVyaEW0HXc87qKZiIzzEVa8b-I3_rw98JacjunF7w&usqp=CAU" width="300px">
+            <div id="box">Fashion & Clothing</div>
+            <p id="text">Explore Fashion.<br> Trendy clothing at affordable cost!</p>
+        </div>
+
+        <div id="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJMn-Tt-fxlrAuYF1ErR9Qf-bozMbz8zd-Q&s" width="300px" height="215">
+            <div id="box">Smart Phones</div>
+            <p id="text">Sale Ends soon! <br>Grab top deals with lowest prices.</p>
+        </div>
+
+        <div id="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5T4oKl43fhMBKfvtxgvouhA-AQSy9o31QLOjVOi8qHnGipdAjBIogrAH7mx4m1SzTeVY&usqp=CAU" width="300px"  height="220px">
+            <div id="box">Beauty</div>
+            <p id="text">Best of Beauty and Personal care <br>Explore popular brands for huge discounts.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
